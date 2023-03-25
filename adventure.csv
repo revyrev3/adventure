@@ -1,0 +1,8 @@
+scene_id,text,choice_text,next_scene_id,voice_index,pitch
+start,"You find yourself at the edge of a mysterious forest. What do you do?","Enter the forest",forest,1,1.2
+start,"You find yourself at the edge of a mysterious forest. What do you do?","Leave",leave,,1.2
+forest,"You enter the forest and see a friendly creature. Do you pet it?","Yes",pet,0,1.1
+forest,"You enter the forest and see a friendly creature. Do you pet it?","No",forest,,1.1
+leave,"You decide to leave the forest. The end.",,,2,1
+pet,"The creature is happy and gives you a treasure. The end.",,,2,0.9
+noPet,"The creature sadly walks away. The end.",,,3,1.3
